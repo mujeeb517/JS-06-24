@@ -1,7 +1,7 @@
 // number, boolean, undefined, string, function
 
 // var str = "abcde";
-var str = 'A big brown fox brown';
+var str = '    A big brown fox brown    ';
 var str2 = 'xyz';
 // arithmatic operator
 // concatenation
@@ -19,5 +19,20 @@ var str2 = 'xyz';
 // console.log(res);
 
 // transformations
-var res = str.toUpperCase();
+// var res = str.toUpperCase();
+// console.log(res);
+
+// var words = str.split('');
+// console.log(words);
+
+// var res = str.replace('brown', 'blue');
+// var res = str.replaceAll('brown', 'blue');
+// console.log(res);
+
+// var res = str.trim();
+// console.log(res);
+
+var amount = "xxx";
+var res = amount.padStart(6, "0");
+
 console.log(res);
