@@ -1,7 +1,8 @@
 // Template
 // 1. object literals
 // 2. Constructor function (pascal casing)
-
+// 3. Object.create (advanced)
+// 4. Class keyword
 
 
 var x = 10; // 64bits, 8bytes
