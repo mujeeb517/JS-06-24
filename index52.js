@@ -12,4 +12,3 @@ x = 10.20;
 
 var res = x.toString();
 console.log(typeof res);
-
