@@ -11,7 +11,7 @@ var m1 = {
 
 var m2 = { ...m1, color: 'Red' };
 
-// console.log(m1.info === m2.info);
+console.log(m1.info === m2.info);
 
 // const arr1 = [1, 2, 3, 4];
 // const arr2 = [5, 6, 7, 8];
