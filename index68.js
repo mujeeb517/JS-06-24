@@ -27,6 +27,8 @@ add(10, 20, res => {
     console.log('add finished');
     sub(res, 10, subRes => {
         console.log('mul is finished');
-        mul(subRes, 10, mulRes => console.log(mulRes));
+        mul(subRes, 10, mulRes => {
+            console.log(mulRes);
+        });
     });
 });
