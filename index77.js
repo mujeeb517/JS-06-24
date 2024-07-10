@@ -36,4 +36,3 @@ obj.dec();
 obj.inc();
 obj.inc();
 obj.inc();
-
